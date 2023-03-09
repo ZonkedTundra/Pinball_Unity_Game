@@ -991,7 +991,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.1992004, g: 0, b: 0.4811321, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1845,7 +1845,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 546428635, guid: ec7b1d6291c3f2340a7deb27b3752b19, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.9869776, a: 1}
+  m_Color: {r: 0.27291474, g: 0, b: 0.6698113, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2357,7 +2357,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248869817}
   m_LocalRotation: {x: -0, y: 0.008727774, z: -0, w: 0.9999619}
-  m_LocalPosition: {x: -7.14, y: 6.5, z: -1.45}
+  m_LocalPosition: {x: 10.5, y: -15.7, z: -1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3829,7 +3829,7 @@ EdgeCollider2D:
   - {x: 11.583706, y: -2.345851}
   - {x: 11.605682, y: -12.44921}
   - {x: 11.562607, y: -16.687727}
-  - {x: 11.570758, y: -16.688004}
+  - {x: 9.669443, y: -16.659765}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -3893,7 +3893,8 @@ EdgeCollider2D:
   - {x: 9.558633, y: 8.417173}
   - {x: 9.61763, y: 8.017235}
   - {x: 9.661381, y: 7.5460434}
-  - {x: 9.650186, y: -16.679972}
+  - {x: 9.671934, y: -16.657915}
+  - {x: 11.590555, y: -16.701532}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
