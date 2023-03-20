@@ -19,7 +19,7 @@ public class Flipper : MonoBehaviour
     {
         if (isRight == true)
         {
-            if (Input.GetKeyDown(KeyCode.Mouse1))
+            if (Input.GetKeyDown(KeyCode.RightArrow))
             {
                 joint.useMotor = true;
                 StartCoroutine(Wait());
@@ -28,7 +28,7 @@ public class Flipper : MonoBehaviour
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
                 joint.useMotor = true;
                 StartCoroutine(Wait());

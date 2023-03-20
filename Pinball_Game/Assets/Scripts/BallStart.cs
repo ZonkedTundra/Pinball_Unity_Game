@@ -16,7 +16,7 @@ public class BallStart : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Mouse0))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             GameObject ball = Instantiate(ballCall, StartPoint.position, Quaternion.identity);
         }
