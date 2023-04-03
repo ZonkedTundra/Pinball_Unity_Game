@@ -9,7 +9,7 @@ public class Ball : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _ks = GameObject.Find("Ball").GetComponent<KeepScore>();
+        _ks = GetComponent<KeepScore>();
         if (_ks == null)
         {
             Debug.LogError("Cannot find AddScore method in Ball :(");
@@ -23,6 +23,7 @@ public class Ball : MonoBehaviour
         if(transform.position.y < -16.7)
         {
             Destroy(gameObject);
+            GameManager.ballFlag = false;
         }
     }
 
@@ -30,7 +31,9 @@ public class Ball : MonoBehaviour
     {
         if (other.gameObject.tag == MyTags.BALLEND_TAG)
         {
+            UIManager.lives -= 1;
             Destroy(gameObject);
+            GameManager.ballFlag = false;
         }
     }
 

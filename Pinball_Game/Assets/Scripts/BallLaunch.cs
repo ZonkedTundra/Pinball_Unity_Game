@@ -21,9 +21,17 @@ public class BallLaunch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == MyTags.BALLSTART_TAG)
         {
+            Debug.Log("collision with " + other);
+            
             myBody.velocity = new Vector2(0, ballSpeed);
+            
         }
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - BallEnd
   - Score
   - Bumper
+  - Lives
+  - BallStart
   layers:
   - Default
   - TransparentFX
