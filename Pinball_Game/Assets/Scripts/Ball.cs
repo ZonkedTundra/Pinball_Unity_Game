@@ -5,6 +5,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     private KeepScore _ks;
+    public AudioSource audioScore;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +43,7 @@ public class Ball : MonoBehaviour
         Debug.Log("Collision detected.");
         if (collision.collider.tag == "Bumper")
         {
+            audioScore.Play();
             Debug.Log("Bump!");
             _ks.AddPoints(50);
         }

@@ -7,6 +7,7 @@ public class Flipper : MonoBehaviour
     public bool isRight;
     public HingeJoint2D joint;
     public float waitTime;
+     public AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class Flipper : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.RightArrow))
             {
+                audio.Play();
                 joint.useMotor = true;
                 StartCoroutine(Wait());
                 
@@ -30,6 +32,7 @@ public class Flipper : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
+                audio.Play();
                 joint.useMotor = true;
                 StartCoroutine(Wait());
             }
