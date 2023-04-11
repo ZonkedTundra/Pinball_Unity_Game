@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Flipper : MonoBehaviour
 {
-    public bool isRight;
-    public HingeJoint2D joint;
-    public float waitTime;
+    public bool isRight; // to determine which flipper is being used
+    public HingeJoint2D joint; // reference to the HingeJoint2D on the flipper
+    public float waitTime; // to be used in a coroutine
 
     // Start is called before the first frame update
     void Start()
