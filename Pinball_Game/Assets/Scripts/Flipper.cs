@@ -7,7 +7,7 @@ public class Flipper : MonoBehaviour
     public bool isRight;
     public HingeJoint2D joint;
     public float waitTime;
-     public AudioSource audio;
+    public new AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
