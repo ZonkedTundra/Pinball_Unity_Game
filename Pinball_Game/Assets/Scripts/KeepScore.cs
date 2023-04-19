@@ -23,5 +23,4 @@ public class KeepScore : MonoBehaviour
         _UIManager.UpdateScore(score);
     }
 
-
 }

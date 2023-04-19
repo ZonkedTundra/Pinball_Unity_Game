@@ -11,6 +11,16 @@ public class MainMenu : MonoBehaviour
         KeepScore.score = 0;
     }
 
+    public void ViewScoreboard()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void TitleScreen()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void QuitGame () 
     {
         Debug.Log(("Quit"));
