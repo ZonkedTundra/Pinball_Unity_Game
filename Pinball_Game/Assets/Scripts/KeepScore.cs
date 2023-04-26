@@ -18,7 +18,7 @@ public class KeepScore : MonoBehaviour
 
     public void AddPoints(int pointsToAdd)
     {
-        Debug.Log("Points added.");
+        // Debug.Log("Points added.");
         score += pointsToAdd;
         _UIManager.UpdateScore(score);
     }

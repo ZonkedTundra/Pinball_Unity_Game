@@ -13,7 +13,6 @@ public class UI_InputWindow : MonoBehaviour
     private TMP_InputField inputField;
     private TextMeshProUGUI titleText;
     public ScoreManager scoreManager;
-    // private Score score;
 
     private void Awake()
     {
